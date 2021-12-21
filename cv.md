@@ -17,6 +17,28 @@ I graduated from the Belorussian State University of Transport in 2014. I work a
 2. Languages - English (a1)
 
 ## Code example
-Havent yet
+const buttonCheck = document.querySelector('.check');
+ 
+buttonCheck.addEventListener('click', () => {
+    let number = tel.value.split('');
+    let flag = true;
+
+    let firstNumbers = number.slice(0, 4).join('');
+    let onlyNumbers = number.slice(4, number.length);
+
+    if(firstNumbers !== "+375" || number.length !== 13) flag = false;
+
+    for (let num of onlyNumbers){
+        num = Number(num);
+        if(Number.isNaN(num)) flag = false;
+    }
+
+    if(!flag) {
+        alert("Неверный формат номера телефона!");
+    }
+})
+
+## Education
+Belorussian State University of Transport, Civil Engineering Faculty
 
 
