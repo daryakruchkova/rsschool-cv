@@ -99,10 +99,33 @@ h6 {
 	color: red;
 } */
 
+.cv{
+    display: flex;
+    border: 3px solid rgb(134, 11, 52);
+    align-self: center;    
+    padding: 40px;
 
+    
+
+}
+.header{
+    border: 3px solid rgb(134, 11, 52);
+    width: 50%;
+    
+}
+.main{
+    border: 3px solid rgb(134, 11, 52);
+    
+    
+}
+.navigation{
+   
+    border: 3px solid rgb(134, 11, 52);
+    padding: 10px;
+   
+}
 h1 {
     font-size: 18px;
-    text-align: center;
     text-transform: uppercase;
     letter-spacing: 6px;
     margin: 50px 0 10px 0;
@@ -118,8 +141,8 @@ h2 {
 }
 
 .photo {
-    width: 35%;
-    margin: 0 430px 0 430px;
+    width: 100%;
+   
     border: 3px solid rgb(134, 11, 52);
     box-shadow: 10px 10px 10px rgb(134, 11, 52);
 }
