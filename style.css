@@ -1,0 +1,180 @@
+/*Обнуление*/
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+
+/*--------------------*/
+
+
+/* 
+.bigred{
+	font-size: 20px;
+	color: red;
+} */
+body{
+    /*font-family: Arial, Helvetica, sans-serif;*/
+.cv{
+    display: flex;
+    /*border: 3px solid rgb(134, 11, 52);*/
+    align-self: center;    
+    padding: 40px;
+    font-size: 16px;
+    flex-wrap: wrap;
+    background-color: #bbb4a6;  
+}
+.cv_start{
+    width: 50%;
+    /*border: 3px solid rgb(134, 11, 52);*/
+}
+.cv_end{
+    width: 50%;
+    /*border: 3px solid rgb(134, 11, 52);*/
+
+}
+.date{
+    text-align: right;
+    margin: 0 0 20px 0; 
+}
+.photo {
+    width: 605px;
+    height: auto;
+    width: 100%;
+    
+    max-width: 605px;
+    max-height: auto;
+}
+.navigation{
+    margin-left: 100px;
+}
+.mycontact{
+    margin-left: 100px;
+    line-height: 20px;
+}
+h1 {
+    font-size: 26px;
+    text-align: right;
+    margin: 50px 0 20px 0;
+    font-weight: 600;
+    background-color: #eed09c;
+    box-shadow: 5px -5px 10px 5px #866d40;
+}
+h2 {
+    font-size: 20px;
+    margin: 50px 0 10px 0;
+    margin-left: 100px;
+    /*font-weight: 600 px;*/
+    /*text-decoration: underline;*/
+    border: 3px solid #eed09c;
+    background-color: #eed09c;
+    box-shadow: 5px -5px 10px 5px #866d40;
+}
+.text {
+    margin-left: 100px;
+    line-height: 20px;  
+}
+.link_about{
+    color: black;
+    text-decoration: underline;
+}
+.skils {
+    margin-left: 100px;
+    line-height: 20px;
+}
+.link{
+   color: black;  
+}
+footer{
+   display: flex;
+   flex-direction: column;
+   align-self: center;
+   margin-left: 500px;
+   margin-top: 50px;
+   line-height: 20px; 
+}
