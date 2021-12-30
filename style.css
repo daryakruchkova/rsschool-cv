@@ -98,48 +98,84 @@ h6 {
 	font-size: 20px;
 	color: red;
 } */
-
-
-h1 {
-    font-size: 18px;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 6px;
-    margin: 50px 0 10px 0;
-    font-weight: 600;
+body{
+    /*font-family: Arial, Helvetica, sans-serif;*/
 }
-
-h2 {
-    font-size: 14px;
-    text-align: center;
-    margin: 50px 0 20px 0;
-    text-decoration: underline;
-    font-weight: 600;
+.cv{
+    display: flex;
+    /*border: 3px solid rgb(134, 11, 52);*/
+    align-self: center;    
+    padding: 40px;
+    font-size: 16px;
+    flex-wrap: wrap;
+    background-color: #bbb4a6;  
 }
+.cv_start{
+    width: 50%;
+    /*border: 3px solid rgb(134, 11, 52);*/
+}
+.cv_end{
+    width: 50%;
+    /*border: 3px solid rgb(134, 11, 52);*/
 
+}
+.date{
+    text-align: right;
+    margin: 0 0 20px 0; 
+}
 .photo {
-    width: 35%;
-    margin: 0 430px 0 430px;
-    border: 3px solid rgb(134, 11, 52);
-    box-shadow: 10px 10px 10px rgb(134, 11, 52);
+    width: 605px;
+    height: auto;
+    width: 100%;
+    
+    max-width: 605px;
+    max-height: auto;
 }
-
-.contact {
-    font-size: 14px;
-    text-align: center;
-    margin: 30px 0 30px 0;
+.navigation{
+    margin-left: 100px;
+}
+.mycontact{
+    margin-left: 100px;
     line-height: 20px;
+}
+h1 {
+    font-size: 26px;
+    text-align: right;
+    margin: 50px 0 20px 0;
+    font-weight: 600;
+    background-color: #eed09c;
+    box-shadow: 5px -5px 10px 5px #866d40;
+}
+h2 {
+    font-size: 20px;
+    margin: 50px 0 10px 0;
+    margin-left: 100px;
+    /*font-weight: 600 px;*/
+    /*text-decoration: underline;*/
+    border: 3px solid #eed09c;
+    background-color: #eed09c;
+    box-shadow: 5px -5px 10px 5px #866d40;
 }
 .text {
-    font-size: 14px;
-    text-align: center;
-    margin: 30px 0 30px 0;
-    line-height: 20px;
-   
+    margin-left: 100px;
+    line-height: 20px;  
+}
+.link_about{
+    color: black;
+    text-decoration: underline;
 }
 .skils {
-    font-size: 14px;
-    text-align: center;
-    margin: 30px 0 30px 0;
+    margin-left: 100px;
     line-height: 20px;
+}
+.link{
+   color: black;  
+}
+footer{
+   display: flex;
+   flex-direction: column;
+   align-self: center;
+   margin-left: 500px;
+   margin-top: 50px;
+   line-height: 20px; 
 }
